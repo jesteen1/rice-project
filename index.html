@@ -72,7 +72,7 @@
                 </div>
             </div>
         </div>
-        <div class="mt-5 pt-4">
+        <div class="mt-5 pt-4 hidden">
             <div class="  flex  flex-wrap     ">
                 <div class=" w-full xl:w-80 flex justify-center ">
 
@@ -126,12 +126,10 @@
                 </div>
                 <div class="ml-7 mt-4 " data-aos="fade-up">
                     <p class="text-3xl width pb-3 text-center font-bold capitalize">பச்சை அரிசி</p>
-                    <p class="width ml-7 xl:ml-0">பச்சரிசி என்பது தமிழ்நாட்டின் பாரம்பரிய அரிசி வகையாகும். இந்த பட்டு
-                        பளபளப்பு, சுவையான நறுமணம், நீளமான மற்றும் மெல்லிய அளவு, மற்றும் மென்மையான சுவை மிகுந்த மகிழ்ச்சியை அளித்தது மற்றும்
-                        எல்லா நிலைகளிலும் ஒரே மாதிரியாக ஏழை. இது ஒரு வேகவைத்த குறுகிய தானிய அரிசி வகை. இது எளிதாக இல்லை
-                        கிளாசிக்கல் வாசனை, செழுமையான சுவை மற்றும் சீரான செயல்திறன் காரணமாக மிருதுவாகவோ அல்லது மெல்லியதாகவோ மாறும். என
-                        இதன் விளைவாக, அது நீண்ட நேரம் வெண்மையாக இருக்கும். பொன்னி ரா ரைஸ் ஒரு கொட்டை சுவை மற்றும் பஞ்சுபோன்றது
-                        அமைப்பு மற்றும் நார்ச்சத்து, பொட்டாசியம், கால்சியம் மற்றும் வைட்டமின் பி-6 ஆகியவற்றின் மேம்படுத்தப்பட்ட மூலமாகும்.
+                    <p class="width ml-7 xl:ml-0">பச்சரிசியை சாப்பிட்டால் உடல் கொழுப்பு சத்து அதிகமாகும். 
+                        சரும சுருக்கம் குறைக்கிறது, மற்றும் ஆரோக்கியம் மேம்படும்
+                        சைவம்/அசைவம் உணவுகளுக்கு ஏற்றது.
+                        வைட்டமின், மெக்னீசியம், கால்சியம் போன்ற அத்தியாவசியமான ஊட்டச்சத்துக்களும் இதில் உள்ளது.
 
                     </p>
                 </div>
@@ -140,8 +138,8 @@
     </section>
     <section class="p-5 bg-green-50 overflow-hidden" id="products">
         <p class="text-3xl font-bold text-center" data-aos="flip-up">தயாரிப்புகள்</p>
-        <div class="grid gap-1 place-items-center grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 ">
-            <a data-aos="fade-right" href="#contacts" id="buy">
+        <div class="grid gap-1 place-content-center  grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 border">
+            <a data-aos="fade-right" href="#contacts" class="hidden" id="buy">
 
                 <div
                     class="bg-white rounded-b-2xl mt-10  shadow-2xl cursor-pointer card transform  transition-all duration-300  transform scale-100 xl:hover:scale-110">
@@ -304,7 +302,7 @@
     var buy = document.querySelectorAll("#buy");
     for (i = 0; i < buy.length; i++) {
         buy[i].addEventListener('click', () => {
-            alert("contants us to buy product");
+            alert("தயாரிப்பு வாங்குவதற்கு எங்களை தொடர்பு கொள்ள வேண்டும்");
         })
     }
 </script>
