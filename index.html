@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title class="capitalize">agriculture</title>
+    <title class="capitalize">Agriculture</title>
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="./tailwind.css">
     <link rel="icon" href="logo.png">
@@ -40,9 +40,10 @@
         </div>
 
         <div class="overflow-hidden h-0 transition duration-300" id="menu">
-            <li class="list-none block  text-2xl capitalize text-center p-4 rounded ">home</li>
-            <li class="list-none block  text-2xl capitalize text-center p-4 rounded">products</li>
-            <li class="list-none block  text-2xl capitalize text-center p-4 rounded ">About</li>
+            <li class="list-none block  text-2xl capitalize text-center p-4 rounded "><a href="#home">home</a> </li>
+            <li class="list-none block  text-2xl capitalize text-center p-4 rounded"> <a href="#products">products</a>
+            </li>
+            <li class="list-none block  text-2xl capitalize text-center p-4 rounded "><a href="#About">About</a></li>
         </div>
     </nav>
     <section class="bg-red-50 p-5 overflow-hidden" id="home">
@@ -52,18 +53,18 @@
                 <div class=" w-full xl:w-80 flex justify-center">
 
                     <div class="bg-white w-80 p-5 rounded">
-                        <img src="./first rice.jpeg" alt="" class="w-f">
+                        <img src="./kulukal rice.jpeg" alt="" class="w-full">
                     </div>
                 </div>
                 <div class="ml-7 mt-4 ">
-                    <p class="text-3xl width pb-3 text-center font-bold capitalize">Kulangal rice</p>
-                    <p class="width ml-7 xl:ml-0">tudies suggest that, in comparison to both white rice and brown rice,
-                        parboiled rice has a lower impact on blood sugar levels, making it a safer choice for people
-                        with diabetes than other rices. This may be especially true if you refrigerate leftover
-                        parboiled rice and then eat the leftovers, as storing parboiled rice in cold temperatures may
-                        further reduce the impact it has on your blood sugar levels.
-                        Although Kulangal rice is a healthier alternative to traditional white rice, it is the
-                        <span class="font-bold">hyberad organic rice</span> .
+                    <p class="text-3xl width pb-3 text-center font-bold capitalize">pulungal rice</p>
+                    <p class="width ml-7 xl:ml-0">Parboiling is common, partly due to its beneficial effects on the
+                        cooking and storage qualities of rice. Studies also suggest that it may have health benefits
+                        beyond the increase in nutritional value.Parboiled rice is especially rich in niacin, providing
+                        4 milligrams, or 23 percent of the recommended daily intake in 1 cup of cooked rice. You’ll also
+                        get 19 percent of the daily intake of vitamin B-6. One cup of cooked parboiled rice supplies 2
+                        to 3 percent of the recommended daily intake of calcium, iron, magnesium and potassium.<br>
+                        <span class="font-bold">hybrid organic rice</span>.
                     </p>
                 </div>
             </div>
@@ -117,7 +118,7 @@
                 <div class="flex justify-center w-full xl:w-80">
 
                     <div class="bg-white w-80 p-5 shadow-2xl rounded" data-aos="fade-right">
-                        <img src="./rice4.jpeg" alt="">
+                        <img src="./pacharasi.jpeg" alt="">
                     </div>
                 </div>
                 <div class="ml-7 mt-4 " data-aos="fade-up">
@@ -158,7 +159,7 @@
                         <img src="./first rice.jpeg" class="w-full" alt="">
                     </div>
                     <div class="pt-3 p-5">
-                        <p class="font-bold text-2xl text-center capitalize">Kulangal rice</p>
+                        <p class="font-bold text-2xl text-center capitalize">pulungal rice</p>
                         <p class="pt-3 text-center">1kg of rice <span class="font-bold"> ₹70</span> </p>
                     </div>
                 </div>
@@ -168,7 +169,7 @@
                 <div
                     class="bg-white rounded-b-2xl mt-10  shadow-2xl card cursor-pointer transform  transition-all duration-300  scale-100 xl:hover:scale-110">
                     <div class="overflow-hidden rounded-t ">
-                        <img src="./sampleimage.jpg" class="w-full" alt="">
+                        <img src="./kulukal rice.jpeg" class="w-full" alt="">
                     </div>
                     <div class="pt-3 p-5">
                         <p class="font-bold text-2xl text-center capitalize">idly rice</p>
@@ -181,7 +182,7 @@
                 <div
                     class="bg-white rounded-b-2xl mt-10  card shadow-2xl cursor-pointer transform transition-all duration-300  scale-100 xl:hover:scale-110">
                     <div class="overflow-hidden rounded-t ">
-                        <img src="./sampleimage.jpg" class="w-full" alt="">
+                        <img src="./pacharasi.jpeg" class="w-full" alt="">
                     </div>
                     <div class="pt-3 p-5">
                         <p class="font-bold text-2xl text-center capitalize">Pacharisi</p>
@@ -221,6 +222,18 @@
     </section>
 </body>
 <style>
+    ::selection{
+        background-color: rgba(46, 255, 46, 0.671);
+        
+    }
+    ::-webkit-scrollbar-thumb{
+        background-image: linear-gradient(rgb(0, 119, 255),purple);
+        border-radius: 100px;
+        box-shadow: 5px 5px  10px rgb(255, 87, 87);
+    }
+    ::-webkit-scrollbar{
+        background-image: linear-gradient(white,rgba(250, 57, 57, 0.747));
+    }
     .rounded1 {
         border-radius: 250px;
     }
